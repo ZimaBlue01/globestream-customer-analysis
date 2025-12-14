@@ -67,6 +67,14 @@ This transformed the dataset from raw records into a marketing-ready analytical 
 
 This enriched dataset is saved as customers_cleaned.csv and can be reused for future reporting or campaign analysis.
 
+### Cleaned Dataset Preview
+
+The dataset was cleaned, validated, and enriched with time-based and demographic features
+(year, month, quarter, birth year, and customer generation).
+
+![Cleaned customer dataset preview](assets/charts/cust_output.png)
+
+
 📈 Customer Sign-Ups Over Time (Monthly)
 
 To understand short-term fluctuations and overall momentum, customer sign-ups were aggregated monthly.
@@ -81,6 +89,14 @@ Several months exceed the mean, indicating periodic spikes likely driven by camp
 
 This view helps marketing teams identify seasonality and campaign timing opportunities.
 
+### Customer Sign-ups (Monthly)
+
+Monthly aggregation highlights short-term fluctuations in customer acquisition.
+The dashed red line represents the average monthly sign-ups, providing a useful baseline.
+
+![Monthly customer sign-ups](assets/charts/customer_monthly_sign_ups.png)
+
+
 📊 Customer Sign-Ups Over Time (Quarterly)
 
 To reduce noise and highlight broader trends, sign-ups were also analysed at a quarterly level.
@@ -94,6 +110,14 @@ Early post-launch periods show stronger acquisition.
 Later periods stabilise, suggesting GlobeStream moved from rapid expansion to more sustainable growth.
 
 This view is useful for strategic planning and quarterly performance reviews.
+
+### Customer Sign-ups (Quarterly)
+
+Quarterly aggregation smooths out monthly volatility and reveals broader growth patterns
+across the post-launch and post-pandemic periods.
+
+![Quarterly customer sign-ups](assets/charts/customer_quarterly_sign_ups.png)
+
 
 🎯 Customer Segmentation by Generation
 
@@ -122,6 +146,18 @@ Tailor messaging toward younger, digitally native users
 Allocate campaign budgets more efficiently
 
 Design onboarding experiences aligned with dominant age groups
+
+
+### Customer Sign-ups by Generation
+
+Customers were grouped into generational cohorts (Generation X, Millennial, Generation Z)
+to help the marketing team understand **which age groups are driving growth**.
+
+This segmentation allows GlobeStream to tailor messaging, onboarding, and campaign spend
+toward the most active customer generations.
+
+![Customer sign-ups by generation](assets/charts/numm_sign_ups_gen.png)
+
 
 📦 Project Outputs
 
